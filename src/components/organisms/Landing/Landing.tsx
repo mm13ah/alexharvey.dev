@@ -3,7 +3,7 @@ import { Background, ProfilePic } from '../../atoms';
 import { IconRow } from '../../molecules';
 
 export const Landing = () => (
-  <Background>
+  <Background className="flex-col items-center justify-center bg-gradient-to-r from-cyan-500 to-blue-500">
     <h1 className="text-5xl text-white font-medium my-2 tracking-wider">
       Hi, I&apos;m Alex.
     </h1>

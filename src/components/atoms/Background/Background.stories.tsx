@@ -9,9 +9,12 @@ export default {
   parameters: {
     layout: 'fullscreen',
   },
+  args: {
+    className: 'bg-gradient-to-r from-cyan-500 to-blue-500',
+  },
 } as Meta<typeof Background>;
 
-const Template: StoryFn<typeof Background> = () => <Background />;
+const Template: StoryFn<typeof Background> = (args) => <Background {...args} />;
 
 export const Primary = Template.bind({});
 Primary.storyName = 'Background';

@@ -9,7 +9,7 @@ export default {
   args: {},
 } as Meta<typeof ProfilePic>;
 
-const Template: StoryFn<typeof ProfilePic> = (args) => <ProfilePic {...args} />;
+const Template: StoryFn<typeof ProfilePic> = () => <ProfilePic />;
 
 export const Primary = Template.bind({});
 Primary.storyName = 'ProfilePic';

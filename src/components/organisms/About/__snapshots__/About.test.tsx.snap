@@ -1,0 +1,84 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`About should match a snapshot 1`] = `
+<div
+  className="w-screen min-h-screen flex bg-white flex-row"
+>
+  <div
+    className="flex-1 flex flex-row items-center justify-center"
+  >
+    <img
+      alt="me"
+      className="h-screen w-auto"
+      data-nimg="1"
+      decoding="async"
+      height={40}
+      loading="lazy"
+      onError={[Function]}
+      onLoad={[Function]}
+      src="/_next/image?url=%2Fimg.jpg&w=96&q=75"
+      srcSet="/_next/image?url=%2Fimg.jpg&w=48&q=75 1x, /_next/image?url=%2Fimg.jpg&w=96&q=75 2x"
+      style={
+        Object {
+          "color": "transparent",
+        }
+      }
+      width={40}
+    />
+  </div>
+  <div
+    className="flex-1 m-10"
+  >
+    <h2
+      className="text-neutral-900 font-medium tracking-wider text-4xl mb-2"
+    >
+      About
+    </h2>
+    <p
+      className="text-neutral-900 tracking-wide"
+    >
+      Hi, I'm Alex, an agile software developer currently working at
+       
+      <a
+        className="underline text-blue-500"
+        href="https://www.contic.co.uk/"
+        rel="noreferrer"
+        target="_blank"
+      >
+        Contic
+      </a>
+      . I love working with JavaScript and all the brilliant open source technologies that come with it. In my day-to-day life, I work primarily with TypeScript, React, GraphQL, NodeJS and PostgreSQL. I also have a solid foundation in writing semantic HTML and applying responsive CSS.
+    </p>
+    <br />
+    <p
+      className="text-neutral-900 tracking-wide"
+    >
+      Outside of work, I enjoy playing gigs with my band,
+       
+      <a
+        className="underline text-blue-500"
+        href="https://open.spotify.com/artist/1HDp77de4Mrv8OnnEduNJu"
+        rel="noreferrer"
+        target="_blank"
+      >
+        Pretty Terry
+      </a>
+      , DJing, producing music and speaking bad French avec l'aide de ma petite amie.
+    </p>
+    <br />
+    <p
+      className="text-neutral-900 tracking-wide"
+    >
+      If you'd like to know more about my techical experience, you can
+       
+      <a
+        className="underline text-blue-500"
+        href="#experience"
+      >
+        check it out below
+      </a>
+      .
+    </p>
+  </div>
+</div>
+`;

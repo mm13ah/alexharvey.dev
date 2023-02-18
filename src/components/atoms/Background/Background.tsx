@@ -6,11 +6,5 @@ interface Props {
 }
 
 export const Background = ({ className, children }: Props) => (
-  <div
-    className={`w-screen h-screen flex flex-col items-center
-    justify-center bg-gradient-to-r from-cyan-500 to-blue-500
-    ${className}`}
-  >
-    {children}
-  </div>
+  <div className={`w-screen min-h-screen flex ${className}`}>{children}</div>
 );

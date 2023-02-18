@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ProfilePic should match a snapshot 1`] = `
+<img
+  alt="me"
+  className="rounded-full"
+  data-nimg="1"
+  decoding="async"
+  height={200}
+  loading="lazy"
+  onError={[Function]}
+  onLoad={[Function]}
+  src="/_next/image?url=%2Fimg.jpg&w=640&q=75"
+  srcSet="/_next/image?url=%2Fimg.jpg&w=256&q=75 1x, /_next/image?url=%2Fimg.jpg&w=640&q=75 2x"
+  style={
+    Object {
+      "color": "transparent",
+    }
+  }
+  width={200}
+/>
+`;
