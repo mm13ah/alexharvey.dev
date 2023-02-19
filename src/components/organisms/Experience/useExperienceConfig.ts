@@ -1,6 +1,6 @@
 export const useExperienceConfig = () => {
   const frontend = [
-    'Creating pixel-perfect user interfaces from wireframes using React',
+    'Creating pixel-perfect user interfaces from wireframes using React, NextJS and Gatsby',
     'Using React Query to efficiently fetch and cache data',
     'Applying the principles of Atomic Design to encourage component reusage and improve project organisation',
     'Using Storybook to develop components in isolation and create component documentation',

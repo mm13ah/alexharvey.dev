@@ -17,6 +17,8 @@ import {
   SiCircleci,
   SiGithubactions,
   SiExpo,
+  SiNextdotjs,
+  SiGatsby,
 } from 'react-icons/si';
 import { BsPencilSquare } from 'react-icons/bs';
 import { FaGraduationCap } from 'react-icons/fa';
@@ -39,6 +41,8 @@ export const Experience = () => {
         </h2>
         <Section title="Frontend" text={frontend} className="show-on-scroll">
           <SiReact size={20} color="white" />
+          <SiNextdotjs size={20} color="white" />
+          <SiGatsby size={20} color="white" />
           <SiStorybook size={20} color="white" />
           <SiJest size={20} color="white" />
           <SiCypress size={20} color="white" />
