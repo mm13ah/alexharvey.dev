@@ -3,7 +3,7 @@
 exports[`ProfilePic should match a snapshot 1`] = `
 <img
   alt="me"
-  className="rounded-full"
+  className="rounded-full my-3"
   data-nimg="1"
   decoding="async"
   height={200}

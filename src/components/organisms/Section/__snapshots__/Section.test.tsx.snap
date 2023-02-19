@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Section should match a snapshot 1`] = `
+<div>
+  <div
+    className="flex flex-col sm:flex-row sm:items-center gap-x-5"
+  >
+    <h3
+      className="text-white font-medium tracking-wider text-2xl"
+    />
+    <div
+      className="flex gap-x-5 my-2 sm:my-0"
+    >
+      <span />
+    </div>
+  </div>
+  <ul
+    className="list-disc ml-5"
+  />
+</div>
+`;

@@ -1,17 +1,17 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Landing should match a snapshot 1`] = `
-<div
+<section
   className="w-screen min-h-screen flex flex-col items-center justify-center bg-gradient-to-r from-cyan-500 to-blue-500"
 >
   <h1
-    className="text-5xl text-white font-medium my-2 tracking-wider"
+    className="text-5xl text-white font-medium my-2 tracking-wider animate-fadein"
   >
     Hi, I'm Alex.
   </h1>
   <img
     alt="me"
-    className="rounded-full"
+    className="rounded-full my-3"
     data-nimg="1"
     decoding="async"
     height={200}
@@ -28,12 +28,12 @@ exports[`Landing should match a snapshot 1`] = `
     width={200}
   />
   <h2
-    className="text-xl font-light text-white my-2 tracking-[3px] mb-5"
+    className="text-xl font-light text-white my-2 tracking-[3px] mb-5 animate-fadein-slow"
   >
     A software developer.
   </h2>
   <div
-    className="flex items-center gap-x-10"
+    className="flex items-center gap-x-10 animate-fadein-slow"
   >
     <svg
       color="white"
@@ -120,5 +120,5 @@ exports[`Landing should match a snapshot 1`] = `
       />
     </svg>
   </div>
-</div>
+</section>
 `;

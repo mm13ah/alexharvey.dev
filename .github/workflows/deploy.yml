@@ -49,8 +49,8 @@ jobs:
         run: yarn install --frozen-lockfile
       - name: Typescript
         run: yarn tsc
-      - name: Storybook
-        run: yarn build-storybook
+      # - name: Storybook
+      #   run: yarn build-storybook
       - name: Build
         run: yarn build
   test:

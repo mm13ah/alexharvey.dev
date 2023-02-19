@@ -1,22 +1,22 @@
 import React from 'react';
 import { render } from '@testing-library/react';
 import renderer from 'react-test-renderer';
-import { IconRow } from './IconRow';
+import { Section } from './Section';
 
-describe('IconRow', () => {
+describe('Section', () => {
   it('should render', () => {
     render(
-      <IconRow title="">
+      <Section title="" text={[]}>
         <span />
-      </IconRow>
+      </Section>
     );
   });
   it('should match a snapshot', () => {
     const tree = renderer
       .create(
-        <IconRow title="">
+        <Section title="" text={[]}>
           <span />
-        </IconRow>
+        </Section>
       )
       .toJSON();
     expect(tree).toMatchSnapshot();

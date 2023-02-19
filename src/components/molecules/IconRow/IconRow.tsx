@@ -1,15 +1,13 @@
 import React from 'react';
-import { SiGraphql, SiNodedotjs, SiReact, SiTypescript } from 'react-icons/si';
 
 interface Props {
-  color?: string;
+  title: string;
+  children: React.ReactNode;
 }
 
-export const IconRow = ({ color }: Props) => (
-  <div className="flex items-center gap-x-10">
-    <SiTypescript size={38} color={color ?? 'white'} />
-    <SiReact size={38} color={color ?? 'white'} />
-    <SiGraphql size={38} color={color ?? 'white'} />
-    <SiNodedotjs size={38} color={color ?? 'white'} />
+export const IconRow = ({ title, children }: Props) => (
+  <div className="flex flex-col sm:flex-row sm:items-center gap-x-5">
+    <h3 className="text-white font-medium tracking-wider text-2xl">{title}</h3>
+    <div className="flex gap-x-5 my-2 sm:my-0">{children}</div>
   </div>
 );

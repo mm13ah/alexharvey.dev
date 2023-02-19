@@ -1,15 +1,15 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`About should match a snapshot 1`] = `
-<div
-  className="w-screen min-h-screen flex bg-white flex-row"
+<section
+  className="w-screen min-h-screen flex bg-white grid grid-cols-1 lg:grid-cols-2 p-10"
 >
   <div
-    className="flex-1 flex flex-row items-center justify-center"
+    className="flex flex-row items-center justify-center w-full h-full show-on-scroll"
   >
     <img
       alt="me"
-      className="h-screen w-auto"
+      className="w-auto h-full p-10"
       data-nimg="1"
       decoding="async"
       height={40}
@@ -27,7 +27,7 @@ exports[`About should match a snapshot 1`] = `
     />
   </div>
   <div
-    className="flex-1 m-10"
+    className="lg:p-10 show-on-scroll"
   >
     <h2
       className="text-neutral-900 font-medium tracking-wider text-4xl mb-2"
@@ -35,7 +35,7 @@ exports[`About should match a snapshot 1`] = `
       About
     </h2>
     <p
-      className="text-neutral-900 tracking-wide"
+      className="text-neutral-900 text-xl tracking-wide leading-relaxed"
     >
       Hi, I'm Alex, an agile software developer currently working at
        
@@ -51,7 +51,7 @@ exports[`About should match a snapshot 1`] = `
     </p>
     <br />
     <p
-      className="text-neutral-900 tracking-wide"
+      className="text-neutral-900 text-xl tracking-wide leading-relaxed"
     >
       Outside of work, I enjoy playing gigs with my band,
        
@@ -67,7 +67,7 @@ exports[`About should match a snapshot 1`] = `
     </p>
     <br />
     <p
-      className="text-neutral-900 tracking-wide"
+      className="text-neutral-900 text-xl tracking-wide leading-relaxed"
     >
       If you'd like to know more about my techical experience, you can
        
@@ -80,5 +80,5 @@ exports[`About should match a snapshot 1`] = `
       .
     </p>
   </div>
-</div>
+</section>
 `;

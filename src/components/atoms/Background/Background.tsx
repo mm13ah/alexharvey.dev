@@ -1,10 +1,13 @@
 import React from 'react';
 
 interface Props {
+  id?: string;
   className?: string;
   children?: React.ReactNode;
 }
 
-export const Background = ({ className, children }: Props) => (
-  <div className={`w-screen min-h-screen flex ${className}`}>{children}</div>
+export const Background = ({ id, className, children }: Props) => (
+  <section id={id} className={`w-screen min-h-screen flex ${className}`}>
+    {children}
+  </section>
 );

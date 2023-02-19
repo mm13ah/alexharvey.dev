@@ -1,7 +1,7 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Background should match a snapshot 1`] = `
-<div
+<section
   className="w-screen min-h-screen flex undefined"
 />
 `;
