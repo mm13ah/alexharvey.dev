@@ -15,7 +15,7 @@ exports[`Section should match a snapshot 1`] = `
     </div>
   </div>
   <ul
-    className="list-disc ml-5"
+    className="list-disc mt-2 ml-5"
   />
 </div>
 `;

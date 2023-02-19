@@ -2,7 +2,9 @@
 
 exports[`About should match a snapshot 1`] = `
 <section
-  className="w-screen min-h-screen flex bg-white grid grid-cols-1 lg:grid-cols-2 p-10"
+  className="w-screen min-h-screen flex bg-white grid grid-cols-1 lg:grid-cols-2 p-10 dark:bg-gradient-to-r dark:from-gray-900
+      dark:via-stone-700 dark:to-gray-900 dark:border-b-2 dark:border-solid dark:border-gray-700"
+  id="about"
 >
   <div
     className="flex flex-row items-center justify-center w-full h-full show-on-scroll"
@@ -30,17 +32,17 @@ exports[`About should match a snapshot 1`] = `
     className="lg:p-10 show-on-scroll"
   >
     <h2
-      className="text-neutral-900 font-medium tracking-wider text-4xl mb-2"
+      className="text-neutral-900 font-medium tracking-wider text-4xl mb-2 dark:text-white"
     >
       About
     </h2>
     <p
-      className="text-neutral-900 text-xl tracking-wide leading-relaxed"
+      className="text-neutral-900 text-xl tracking-wide leading-relaxed font-light dark:text-white"
     >
       Hi, I'm Alex, an agile software developer currently working at
        
       <a
-        className="underline text-blue-500"
+        className="underline text-blue-500 dark:text-cyan-500"
         href="https://www.contic.co.uk/"
         rel="noreferrer"
         target="_blank"
@@ -51,12 +53,12 @@ exports[`About should match a snapshot 1`] = `
     </p>
     <br />
     <p
-      className="text-neutral-900 text-xl tracking-wide leading-relaxed"
+      className="text-neutral-900 text-xl tracking-wide leading-relaxed font-light dark:text-white"
     >
       Outside of work, I enjoy playing gigs with my band,
        
       <a
-        className="underline text-blue-500"
+        className="underline text-blue-500 dark:text-cyan-500"
         href="https://open.spotify.com/artist/1HDp77de4Mrv8OnnEduNJu"
         rel="noreferrer"
         target="_blank"
@@ -67,12 +69,12 @@ exports[`About should match a snapshot 1`] = `
     </p>
     <br />
     <p
-      className="text-neutral-900 text-xl tracking-wide leading-relaxed"
+      className="text-neutral-900 text-xl tracking-wide leading-relaxed font-light dark:text-white"
     >
       If you'd like to know more about my techical experience, you can
        
       <a
-        className="underline text-blue-500"
+        className="underline text-blue-500 dark:text-cyan-500"
         href="#experience"
       >
         check it out below

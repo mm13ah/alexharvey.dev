@@ -2,11 +2,13 @@
 
 exports[`Experience should match a snapshot 1`] = `
 <section
-  className="w-screen min-h-screen flex bg-gradient-to-r from-blue-500 to-cyan-500 flex-row"
+  className="w-screen min-h-screen flex bg-gradient-to-r from-blue-500 to-sky-500 flex-row
+      dark:from-stone-900 dark:via-gray-700 dark:to-stone-90
+      dark:border-b-2 dark:border-solid dark:border-gray-700"
   id="experience"
 >
   <div
-    className="m-10"
+    className="m-10 lg:p-10"
   >
     <h2
       className="text-white font-medium tracking-wider text-4xl mb-2 show-on-scroll"
@@ -14,7 +16,7 @@ exports[`Experience should match a snapshot 1`] = `
       Experience
     </h2>
     <div
-      className="show-on-scroll"
+      className="mt-4 show-on-scroll"
     >
       <div
         className="flex flex-col sm:flex-row sm:items-center gap-x-5"
@@ -264,45 +266,45 @@ exports[`Experience should match a snapshot 1`] = `
         </div>
       </div>
       <ul
-        className="list-disc ml-5"
+        className="list-disc mt-2 ml-5"
       >
         <li
-          className="text-white font-light"
+          className="text-white font-light tracking-wide leading-relaxed"
         >
           Creating pixel-perfect user interfaces from wireframes using React, NextJS and Gatsby
         </li>
         <li
-          className="text-white font-light"
+          className="text-white font-light tracking-wide leading-relaxed"
         >
           Using React Query to efficiently fetch and cache data
         </li>
         <li
-          className="text-white font-light"
+          className="text-white font-light tracking-wide leading-relaxed"
         >
           Applying the principles of Atomic Design to encourage component reusage and improve project organisation
         </li>
         <li
-          className="text-white font-light"
+          className="text-white font-light tracking-wide leading-relaxed"
         >
           Using Storybook to develop components in isolation and create component documentation
         </li>
         <li
-          className="text-white font-light"
+          className="text-white font-light tracking-wide leading-relaxed"
         >
           Using Tailwind and Styled Components to apply responsive CSS
         </li>
         <li
-          className="text-white font-light"
+          className="text-white font-light tracking-wide leading-relaxed"
         >
           Implementing rigourous testing of components using Jest and Cypress component testing to guarantee code quality
         </li>
         <li
-          className="text-white font-light"
+          className="text-white font-light tracking-wide leading-relaxed"
         >
           Refactoring outdated components to meet up-to-date React standards
         </li>
         <li
-          className="text-white font-light"
+          className="text-white font-light tracking-wide leading-relaxed"
         >
           Developing mobile applications using Expo and React Native
         </li>
@@ -493,30 +495,30 @@ exports[`Experience should match a snapshot 1`] = `
         </div>
       </div>
       <ul
-        className="list-disc ml-5"
+        className="list-disc mt-2 ml-5"
       >
         <li
-          className="text-white font-light"
+          className="text-white font-light tracking-wide leading-relaxed"
         >
           Implementing REST-style architecture using Express
         </li>
         <li
-          className="text-white font-light"
+          className="text-white font-light tracking-wide leading-relaxed"
         >
           Implementing fully-typed Apollo GraphQL servers with TypeGraphQL
         </li>
         <li
-          className="text-white font-light"
+          className="text-white font-light tracking-wide leading-relaxed"
         >
           Converting REST-style backend architectures to GraphQL to improve performance and simplify authorisation
         </li>
         <li
-          className="text-white font-light"
+          className="text-white font-light tracking-wide leading-relaxed"
         >
           Performing CRUD operations on Postgres databases using ORMs like Prisma and Sequelize
         </li>
         <li
-          className="text-white font-light"
+          className="text-white font-light tracking-wide leading-relaxed"
         >
            Creating extensive unit and integration tests using Jest to ensure code quality
         </li>
@@ -623,40 +625,40 @@ exports[`Experience should match a snapshot 1`] = `
         </div>
       </div>
       <ul
-        className="list-disc ml-5"
+        className="list-disc mt-2 ml-5"
       >
         <li
-          className="text-white font-light"
+          className="text-white font-light tracking-wide leading-relaxed"
         >
           Writing end-to-end tests in Cypress to ensure confidence in code
         </li>
         <li
-          className="text-white font-light"
+          className="text-white font-light tracking-wide leading-relaxed"
         >
           Implementing hygen to allow for code component generation to increase developer efficiency
         </li>
         <li
-          className="text-white font-light"
+          className="text-white font-light tracking-wide leading-relaxed"
         >
           Implementing and using continuous integration tools such as CircleCI and Github Actions to ensure code quality and catch errors
         </li>
         <li
-          className="text-white font-light"
+          className="text-white font-light tracking-wide leading-relaxed"
         >
           Using Docker to simplify local database management
         </li>
         <li
-          className="text-white font-light"
+          className="text-white font-light tracking-wide leading-relaxed"
         >
           Giving lightning talks and trainings to introduce developers to new concepts and tools
         </li>
         <li
-          className="text-white font-light"
+          className="text-white font-light tracking-wide leading-relaxed"
         >
            Interviewing potential developers to assess talent
         </li>
         <li
-          className="text-white font-light"
+          className="text-white font-light tracking-wide leading-relaxed"
         >
           Training new developers to teach them fundamentals and get them up to speed with the stack used
         </li>
@@ -702,10 +704,10 @@ exports[`Experience should match a snapshot 1`] = `
         </div>
       </div>
       <ul
-        className="list-disc ml-5"
+        className="list-disc mt-2 ml-5"
       >
         <li
-          className="text-white font-light underline"
+          className="text-white font-light tracking-wide leading-relaxed underline"
         >
           <a
             href="https://www.contic.co.uk/blog/the-ultimate-component-testing-suite-cypress-storybook-and-mock-service-worker"
@@ -716,7 +718,7 @@ exports[`Experience should match a snapshot 1`] = `
           </a>
         </li>
         <li
-          className="text-white font-light underline"
+          className="text-white font-light tracking-wide leading-relaxed underline"
         >
           <a
             href="https://www.contic.co.uk/blog/migrating-from-a-restful-express-api-to-typegraphql"
@@ -727,7 +729,7 @@ exports[`Experience should match a snapshot 1`] = `
           </a>
         </li>
         <li
-          className="text-white font-light underline"
+          className="text-white font-light tracking-wide leading-relaxed underline"
         >
           <a
             href="https://www.contic.co.uk/blog/local-database-management-with-docker"
@@ -738,7 +740,7 @@ exports[`Experience should match a snapshot 1`] = `
           </a>
         </li>
         <li
-          className="text-white font-light underline"
+          className="text-white font-light tracking-wide leading-relaxed underline"
         >
           <a
             href="https://www.contic.co.uk/blog/what-is-hygen"
@@ -749,7 +751,7 @@ exports[`Experience should match a snapshot 1`] = `
           </a>
         </li>
         <li
-          className="text-white font-light underline"
+          className="text-white font-light tracking-wide leading-relaxed underline"
         >
           <a
             href="https://www.contic.co.uk/blog/setting-up-a-gatsby-project-with-typescript-prettier-and-eslint"
@@ -797,15 +799,15 @@ exports[`Experience should match a snapshot 1`] = `
         </div>
       </div>
       <ul
-        className="list-disc ml-5"
+        className="list-disc mt-2 ml-5"
       >
         <li
-          className="text-white font-light"
+          className="text-white font-light tracking-wide leading-relaxed"
         >
           MSc Advanced Computer Science, University of Leeds
         </li>
         <li
-          className="text-white font-light"
+          className="text-white font-light tracking-wide leading-relaxed"
         >
           BSc Computer Science and Mathematics, University of Leeds
         </li>

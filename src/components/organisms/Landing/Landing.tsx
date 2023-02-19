@@ -3,7 +3,12 @@ import { SiGraphql, SiNodedotjs, SiReact, SiTypescript } from 'react-icons/si';
 import { Background, ProfilePic } from '../../atoms';
 
 export const Landing = () => (
-  <Background className="flex-col items-center justify-center bg-gradient-to-r from-cyan-500 to-blue-500">
+  <Background
+    id="home"
+    className={`flex-col items-center justify-center bg-gradient-to-r
+    from-blue-500 to-sky-500 dark:from-stone-900 dark:via-gray-700 dark:to-stone-900
+    dark:border-b-2 dark:border-solid dark:border-gray-700`}
+  >
     <h1 className="text-5xl text-white font-medium my-2 tracking-wider animate-fadein">
       Hi, I&apos;m Alex.
     </h1>

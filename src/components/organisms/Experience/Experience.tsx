@@ -33,13 +33,19 @@ export const Experience = () => {
   return (
     <Background
       id="experience"
-      className="bg-gradient-to-r from-blue-500 to-cyan-500 flex-row"
+      className={`bg-gradient-to-r from-blue-500 to-sky-500 flex-row
+      dark:from-stone-900 dark:via-gray-700 dark:to-stone-90
+      dark:border-b-2 dark:border-solid dark:border-gray-700`}
     >
-      <div className="m-10">
+      <div className="m-10 lg:p-10">
         <h2 className="text-white font-medium tracking-wider text-4xl mb-2 show-on-scroll">
           Experience
         </h2>
-        <Section title="Frontend" text={frontend} className="show-on-scroll">
+        <Section
+          title="Frontend"
+          text={frontend}
+          className="mt-4 show-on-scroll"
+        >
           <SiReact size={20} color="white" />
           <SiNextdotjs size={20} color="white" />
           <SiGatsby size={20} color="white" />

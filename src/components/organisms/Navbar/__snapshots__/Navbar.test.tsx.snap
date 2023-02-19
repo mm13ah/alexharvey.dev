@@ -1,0 +1,64 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Navbar should match a snapshot 1`] = `
+<nav
+  className="flex items-center justify-between fixed top-0 right-0 z-10
+      w-screen py-5 px-10 bg-gradient-to-r from-blue-500/75 to-sky-500/75
+      dark:from-stone-900/75 dark:via-gray-700/75 dark:to-stone-900/75"
+>
+  <a
+    href="#home"
+  >
+    <svg
+      color="white"
+      fill="currentColor"
+      height={20}
+      stroke="currentColor"
+      strokeWidth="0"
+      style={
+        Object {
+          "color": "white",
+        }
+      }
+      viewBox="0 0 576 512"
+      width={20}
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M280.37 148.26L96 300.11V464a16 16 0 0 0 16 16l112.06-.29a16 16 0 0 0 15.92-16V368a16 16 0 0 1 16-16h64a16 16 0 0 1 16 16v95.64a16 16 0 0 0 16 16.05L464 480a16 16 0 0 0 16-16V300L295.67 148.26a12.19 12.19 0 0 0-15.3 0zM571.6 251.47L488 182.56V44.05a12 12 0 0 0-12-12h-56a12 12 0 0 0-12 12v72.61L318.47 43a48 48 0 0 0-61 0L4.34 251.47a12 12 0 0 0-1.6 16.9l25.5 31A12 12 0 0 0 45.15 301l235.22-193.74a12.19 12.19 0 0 1 15.3 0L530.9 301a12 12 0 0 0 16.9-1.6l25.5-31a12 12 0 0 0-1.7-16.93z"
+      />
+    </svg>
+  </a>
+  <ul
+    className="flex flex-row text-white tracking-widest gap-x-5 md:ml-auto md:mr-10"
+  >
+    <li
+      className="hover:underline text-white nav-item"
+    >
+      <a
+        href="#about"
+      >
+        About
+      </a>
+    </li>
+    <li
+      className="hover:underline text-white nav-item"
+    >
+      <a
+        href="#experience"
+      >
+        Experience
+      </a>
+    </li>
+    <li
+      className="hover:underline text-white nav-item"
+    >
+      <a
+        href="#contact"
+      >
+        Contact
+      </a>
+    </li>
+  </ul>
+</nav>
+`;
