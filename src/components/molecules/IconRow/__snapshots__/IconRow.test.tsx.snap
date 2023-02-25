@@ -8,7 +8,7 @@ exports[`IconRow should match a snapshot 1`] = `
     className="text-white font-medium tracking-wider text-2xl"
   />
   <div
-    className="flex gap-x-5 my-2 sm:my-0"
+    className="flex gap-x-5 mt-2 sm:my-0"
   >
     <span />
   </div>

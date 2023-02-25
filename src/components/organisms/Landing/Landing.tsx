@@ -6,7 +6,7 @@ export const Landing = () => (
   <Background
     id="home"
     className={`flex-col items-center justify-center bg-gradient-to-r
-    from-blue-500 to-sky-500 dark:from-stone-900 dark:via-gray-700 dark:to-stone-900
+    from-blue-500 to-sky-500 dark:from-gray-900 dark:via-stone-700 dark:to-gray-900
     dark:border-b-2 dark:border-solid dark:border-gray-700`}
   >
     <h1 className="text-5xl text-white font-medium my-2 tracking-wider animate-fadein">

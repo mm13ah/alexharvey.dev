@@ -34,7 +34,7 @@ export const Experience = () => {
     <Background
       id="experience"
       className={`bg-gradient-to-r from-blue-500 to-sky-500 flex-row
-      dark:from-stone-900 dark:via-gray-700 dark:to-stone-90
+      dark:from-gray-900 dark:via-stone-700 dark:to-gray-900
       dark:border-b-2 dark:border-solid dark:border-gray-700`}
     >
       <div className="m-10 lg:p-10">

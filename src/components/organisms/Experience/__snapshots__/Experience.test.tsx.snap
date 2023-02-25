@@ -3,7 +3,7 @@
 exports[`Experience should match a snapshot 1`] = `
 <section
   className="w-screen min-h-screen flex bg-gradient-to-r from-blue-500 to-sky-500 flex-row
-      dark:from-stone-900 dark:via-gray-700 dark:to-stone-90
+      dark:from-gray-900 dark:via-stone-700 dark:to-gray-900
       dark:border-b-2 dark:border-solid dark:border-gray-700"
   id="experience"
 >
@@ -27,7 +27,7 @@ exports[`Experience should match a snapshot 1`] = `
           Frontend
         </h3>
         <div
-          className="flex gap-x-5 my-2 sm:my-0"
+          className="flex gap-x-5 mt-2 sm:my-0"
         >
           <svg
             color="white"
@@ -322,7 +322,7 @@ exports[`Experience should match a snapshot 1`] = `
           Backend
         </h3>
         <div
-          className="flex gap-x-5 my-2 sm:my-0"
+          className="flex gap-x-5 mt-2 sm:my-0"
         >
           <svg
             color="white"
@@ -536,7 +536,7 @@ exports[`Experience should match a snapshot 1`] = `
           Other
         </h3>
         <div
-          className="flex gap-x-5 my-2 sm:my-0"
+          className="flex gap-x-5 mt-2 sm:my-0"
         >
           <svg
             color="white"
@@ -676,7 +676,7 @@ exports[`Experience should match a snapshot 1`] = `
           Writing
         </h3>
         <div
-          className="flex gap-x-5 my-2 sm:my-0"
+          className="flex gap-x-5 mt-2 sm:my-0"
         >
           <svg
             color="white"
@@ -775,7 +775,7 @@ exports[`Experience should match a snapshot 1`] = `
           Education
         </h3>
         <div
-          className="flex gap-x-5 my-2 sm:my-0"
+          className="flex gap-x-5 mt-2 sm:my-0"
         >
           <svg
             color="white"
