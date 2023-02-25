@@ -4,7 +4,7 @@ exports[`Experience should match a snapshot 1`] = `
 <section
   className="w-screen min-h-screen flex bg-gradient-to-r from-blue-500 to-sky-500 flex-row
       dark:from-gray-900 dark:via-stone-700 dark:to-gray-900
-      dark:border-b-2 dark:border-solid dark:border-gray-700"
+      dark:border-b-2 dark:border-solid dark:border-gray-500"
   id="experience"
 >
   <div

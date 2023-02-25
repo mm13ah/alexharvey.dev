@@ -9,7 +9,7 @@ export const About = () => {
     <Background
       id="about"
       className={`bg-white grid grid-cols-1 lg:grid-cols-2 p-10 dark:bg-gradient-to-r dark:from-gray-900
-      dark:via-stone-700 dark:to-gray-900 dark:border-b-2 dark:border-solid dark:border-gray-700`}
+      dark:via-stone-700 dark:to-gray-900 dark:border-b-2 dark:border-solid dark:border-gray-500`}
     >
       <div className="flex flex-row items-center justify-center w-full h-full show-on-scroll">
         <Image

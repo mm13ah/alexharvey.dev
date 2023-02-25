@@ -35,7 +35,7 @@ export const Experience = () => {
       id="experience"
       className={`bg-gradient-to-r from-blue-500 to-sky-500 flex-row
       dark:from-gray-900 dark:via-stone-700 dark:to-gray-900
-      dark:border-b-2 dark:border-solid dark:border-gray-700`}
+      dark:border-b-2 dark:border-solid dark:border-gray-500`}
     >
       <div className="m-10 lg:p-10">
         <h2 className="text-white font-medium tracking-wider text-4xl mb-2 show-on-scroll">
