@@ -1,14 +1,15 @@
 import React, { useEffect, useState } from 'react';
 import { IoHomeSharp } from 'react-icons/io5';
-import { useTheme } from 'next-themes';
 import { RiMoonFill, RiSunFill } from 'react-icons/ri';
+import { useDarkMode } from '../../../hooks';
 
 export const Navbar = () => {
-  const { theme, setTheme } = useTheme();
+  const { theme, toggleDarkMode } = useDarkMode();
   const [mounted, setMounted] = useState(false);
   useEffect(() => {
     setMounted(true);
   }, []);
+
   return (
     <nav
       className={`flex items-center justify-between fixed top-0 right-0 z-10
@@ -30,10 +31,7 @@ export const Navbar = () => {
         </li>
       </ul>
       {mounted && (
-        <button
-          onClick={() => setTheme(theme === 'dark' ? 'light' : 'dark')}
-          aria-labelledby="toggle-label"
-        >
+        <button onClick={toggleDarkMode} aria-labelledby="toggle-label">
           {theme === 'dark' ? (
             <RiMoonFill size={20} color="white" />
           ) : (
