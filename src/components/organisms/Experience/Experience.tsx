@@ -31,7 +31,7 @@ import { useExperienceConfig } from './useExperienceConfig';
 export const Experience = () => {
   const { frontend, backend, other, writing, education } =
     useExperienceConfig();
-  const { width } = useWindowSize();
+  const { width, mobile } = useWindowSize();
   const ICON_SIZE = width < 640 ? 15 : 20;
   return (
     <Background
@@ -49,42 +49,54 @@ export const Experience = () => {
           text={frontend}
           className="mt-4 show-on-scroll"
         >
-          <SiReact size={ICON_SIZE} color="white" />
-          <SiNextdotjs size={ICON_SIZE} color="white" />
-          <SiGatsby size={ICON_SIZE} color="white" />
-          <SiStorybook size={ICON_SIZE} color="white" />
-          <SiJest size={ICON_SIZE} color="white" />
-          <SiCypress size={ICON_SIZE} color="white" />
-          <SiTailwindcss size={ICON_SIZE} color="white" />
-          <SiStyledcomponents size={ICON_SIZE} color="white" />
-          <SiExpo size={ICON_SIZE} color="white" />
-          <TbBrandReactNative size={ICON_SIZE} color="white" />
+          {!mobile && (
+            <>
+              <SiReact size={ICON_SIZE} color="white" />
+              <SiNextdotjs size={ICON_SIZE} color="white" />
+              <SiGatsby size={ICON_SIZE} color="white" />
+              <SiStorybook size={ICON_SIZE} color="white" />
+              <SiJest size={ICON_SIZE} color="white" />
+              <SiCypress size={ICON_SIZE} color="white" />
+              <SiTailwindcss size={ICON_SIZE} color="white" />
+              <SiStyledcomponents size={ICON_SIZE} color="white" />
+              <SiExpo size={ICON_SIZE} color="white" />
+              <TbBrandReactNative size={ICON_SIZE} color="white" />
+            </>
+          )}
         </Section>
         <Section title="Backend" text={backend} className="mt-4 show-on-scroll">
-          <SiNodedotjs size={ICON_SIZE} color="white" />
-          <SiGraphql size={ICON_SIZE} color="white" />
-          <SiExpress size={ICON_SIZE} color="white" />
-          <SiPostgresql size={ICON_SIZE} color="white" />
-          <SiApollographql size={ICON_SIZE} color="white" />
-          <SiJest size={ICON_SIZE} color="white" />
-          <SiPrisma size={ICON_SIZE} color="white" />
-          <SiSequelize size={ICON_SIZE} color="white" />
+          {!mobile && (
+            <>
+              <SiNodedotjs size={ICON_SIZE} color="white" />
+              <SiGraphql size={ICON_SIZE} color="white" />
+              <SiExpress size={ICON_SIZE} color="white" />
+              <SiPostgresql size={ICON_SIZE} color="white" />
+              <SiApollographql size={ICON_SIZE} color="white" />
+              <SiJest size={ICON_SIZE} color="white" />
+              <SiPrisma size={ICON_SIZE} color="white" />
+              <SiSequelize size={ICON_SIZE} color="white" />
+            </>
+          )}
         </Section>
         <Section title="Other" text={other} className="mt-4 show-on-scroll">
-          <SiCypress size={ICON_SIZE} color="white" />
-          <SiCircleci size={ICON_SIZE} color="white" />
-          <SiGithubactions size={ICON_SIZE} color="white" />
-          <SiDocker size={ICON_SIZE} color="white" />
+          {!mobile && (
+            <>
+              <SiCypress size={ICON_SIZE} color="white" />
+              <SiCircleci size={ICON_SIZE} color="white" />
+              <SiGithubactions size={ICON_SIZE} color="white" />
+              <SiDocker size={ICON_SIZE} color="white" />
+            </>
+          )}
         </Section>
         <Section title="Writing" text={writing} className="mt-4 show-on-scroll">
-          <BsPencilSquare size={ICON_SIZE} color="white" />
+          {!mobile && <BsPencilSquare size={ICON_SIZE} color="white" />}
         </Section>
         <Section
           title="Education"
           text={education}
           className="mt-4 show-on-scroll"
         >
-          <FaGraduationCap size={ICON_SIZE} color="white" />
+          {!mobile && <FaGraduationCap size={ICON_SIZE} color="white" />}
         </Section>
       </div>
     </Background>

@@ -1,11 +1,12 @@
 import React, { useEffect, useState } from 'react';
 import { IoHomeSharp } from 'react-icons/io5';
 import { RiMoonFill, RiSunFill } from 'react-icons/ri';
-import { useDarkMode } from '../../../hooks';
+import { useDarkMode, useWindowSize } from '../../../hooks';
 
 export const Navbar = () => {
   const { theme, toggleDarkMode } = useDarkMode();
   const [mounted, setMounted] = useState(false);
+  const { mobile } = useWindowSize();
   useEffect(() => {
     setMounted(true);
   }, []);
@@ -19,17 +20,19 @@ export const Navbar = () => {
       <a href="#home">
         <IoHomeSharp size={20} color="white" />
       </a>
-      <ul className="flex flex-row text-white tracking-widest gap-x-5 md:ml-auto md:mr-10">
-        <li className="hover:underline text-white nav-item">
-          <a href="#about">About</a>
-        </li>
-        <li className="hover:underline text-white nav-item">
-          <a href="#experience">Experience</a>
-        </li>
-        <li className="hover:underline text-white nav-item">
-          <a href="#contact">Contact</a>
-        </li>
-      </ul>
+      {!mobile && (
+        <ul className="flex flex-row text-white tracking-widest gap-x-5 md:ml-auto md:mr-10">
+          <li className="hover:underline text-white nav-item">
+            <a href="#about">About</a>
+          </li>
+          <li className="hover:underline text-white nav-item">
+            <a href="#experience">Experience</a>
+          </li>
+          <li className="hover:underline text-white nav-item">
+            <a href="#contact">Contact</a>
+          </li>
+        </ul>
+      )}
       {mounted && (
         <button onClick={toggleDarkMode} aria-labelledby="toggle-label">
           {theme === 'dark' ? (
