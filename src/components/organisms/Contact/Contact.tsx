@@ -34,7 +34,12 @@ export const Contact = () => {
         <h4 className="font-light mt-2">aharvey7nr7@gmail.com</h4>
         <h4 className="font-light mt-1">alexharvey.dev</h4>
         <div className="flex gap-x-10 mt-3">
-          <a href="https://github.com/mm13ah" target="_blank" rel="noreferrer">
+          <a
+            href="https://github.com/mm13ah"
+            target="_blank"
+            rel="noreferrer"
+            aria-label="github"
+          >
             <SiGithub
               size={30}
               color={

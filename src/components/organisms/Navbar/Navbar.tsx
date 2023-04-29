@@ -17,7 +17,7 @@ export const Navbar = () => {
       w-screen py-5 px-10 bg-gradient-to-r from-blue-500/75 to-sky-500/75
       dark:from-gray-900/75 dark:via-stone-700/75 dark:to-gray-900/75`}
     >
-      <a href="#home" aria-label="Home">
+      <a href="#home" aria-label="home">
         <IoHomeSharp size={20} color="white" />
       </a>
       {!mobile && (
